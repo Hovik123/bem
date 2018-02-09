@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.social-links—content {
+  @extend .container;
+
+  .social-link {
+    @include make-col(6);
+  }
+}
